@@ -1,1 +1,1 @@
-# jedlikbalint.github.io
+Isac Newton élete és munkásága
