@@ -1,5 +1,8 @@
 body{
-    background-image: url(depositphotos_10057161-stock-illustration-physical-background.jpg) ;
+    background-image: url(képek/depositphotos_10057161-stock-illustration-physical-background.jpg) ;
     background-repeat: no-repeat;
     background-size: cover
+}
+.carousel-item img{
+height: 500px;   
 }

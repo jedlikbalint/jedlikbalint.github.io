@@ -21,13 +21,16 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="felfedezesei.html">Felfedezései</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="elete.html">Élete</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="torvenyei.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,6 +51,34 @@
   </nav>
   <div class="container bg-light px-5 py-3 ">
     <h1>Isaac Newton</h1>
+    <div @include media-breakpoint-down(lg) { height-900px}>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="képek/50786.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="képek/32030239_262ad96109a4f3fb70dfa9e7f5230adf_wm.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="képek/GettyImages-154320249-569b9b3a3df78cafda95dda2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
     <p>Korszakalkotó műve a Philosophiæ Naturalis Principia Mathematica (A természetfilozófia matematikai alapelvei,
       1687), melyben leírja az egyetemes tömegvonzás törvényét, valamint az általa lefektetett axiómák révén megalapozta
       a klasszikus mechanika tudományát. Ő volt az első, aki megmutatta, hogy az égitestek és a Földön lévő tárgyak
