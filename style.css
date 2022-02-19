@@ -26,6 +26,14 @@ position: fixed;
 body{
     background-color: rgb(174, 224, 212);
 }
+@media screen and (max-width: 600px) {
+    .kartya{
+        max-width: 75%;
+    }
+}
 .kep1{
-    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius:600px;
+    
 }
