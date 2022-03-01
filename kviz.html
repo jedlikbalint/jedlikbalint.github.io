@@ -13,7 +13,7 @@
 
 <body>
   <img class="kep" src="képek/Névtelen.jpg" alt="">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-0 text-center">
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,12 +51,12 @@
     </div>
     </div>
   </nav>
-<h2 class="my-3 text-center">
-Töltse ki kvízünket , és nyerjen belépőt a Csodák Palotája NEWTON ALMÁSKERTJE nevű kiállítására ! 
-</h2>
-
-<div class="kviz">
-  <div class="input-group input-group-sm my-3 mx-md-auto mx-4  " style="width: 30%;">
+  <h2 class="my-3 text-center">
+    Töltse ki kvízünket , és nyerjen belépőt a Csodák Palotája NEWTON ALMÁSKERTJE nevű kiállítására ! 
+  </h2>
+  
+  <div class="kviz">
+    <div class="input-group input-group-sm my-3 mx-md-auto mx-4  " style="width: 30%;">
       <span class="input-group-text "  id="inputGroup-sizing-sm">Melyik országban született Newton ?</span>
       
       <input type="text" class="form-control" aria-label="Sizing example input" style="min-width: 90px;" aria-describedby="inputGroup-sizing-sm">
@@ -69,53 +69,64 @@ Töltse ki kvízünket , és nyerjen belépőt a Csodák Palotája NEWTON ALMÁS
       <span class="input-group-text" id="inputGroup-sizing-sm">Melyik tudós társaságnak volt a tagja ?</span>
       <input type="text" class="form-control" aria-label="Sizing example input"  style="min-width: 90px;" aria-describedby="inputGroup-sizing-sm">
     </div>
+  </div>
+  <div>
+    
+    <h5 class="text-center">Newton 3. törvénye a tehetetlenség törvénye ?</h5>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input" type="radio" name="1" id="1">
+      <label class="form-check-label" for="1">
+        Igaz
+      </label>
+    </div>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input  " type="radio" name="1" id="1" >
+      <label class="form-check-label" for="1">
+        Hamis
+      </label>
+    </div>
+  </div>
+  <div>
+    <h5 class="text-center">Newton csak a mechanikával foglalkozott ?</h5>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input" type="radio" name="2" id="2">
+      <label class="form-check-label" for="igaz2">
+        Igaz
+      </label>
+    </div>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input  " type="radio" name="hamis2" id="2" >
+      <label class="form-check-label" for="2">
+        Hamis
+      </label>
+    </div>
+  </div>
+  <div>
+    <h5 class="text-center">Az akció-reakció törvény Newtonhoz köthető ?</h5>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input" type="radio" name="3" id="3">
+      <label class="form-check-label" for="3">
+        Igaz
+      </label>
+    </div>
+    <div class="form-check mx-auto" style="width: 30%;">
+      <input class="form-check-input  " type="radio" name="3" id="3" >
+      <label class="form-check-label" for="3">
+        Hamis
+      </label>
+    </div>
 </div>
-  <h5 class="text-center">Newton 3. törvénye a tehetetlenség törvénye ?</h5>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-    <label class="form-check-label" for="flexRadioDefault1">
-      Igaz
-    </label>
-  </div>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input  " type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-    <label class="form-check-label" for="flexRadioDefault2">
-      Hamis
-    </label>
-  </div>
-  <h5 class="text-center">Newton csak a mechanikával foglalkozott ?</h5>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-    <label class="form-check-label" for="flexRadioDefault1">
-      Igaz
-    </label>
-  </div>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input  " type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-    <label class="form-check-label" for="flexRadioDefault2">
-      Hamis
-    </label>
-  </div>
-  <h5 class="text-center">Az akció-reakció törvény Newtonhoz köthető ?</h5>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-    <label class="form-check-label" for="flexRadioDefault1">
-      Igaz
-    </label>
-  </div>
-  <div class="form-check mx-auto" style="width: 30%;">
-    <input class="form-check-input  " type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-    <label class="form-check-label" for="flexRadioDefault2">
-      Hamis
-    </label>
-  </div>
-  <div class="d-grid gap-2 col-6 mx-auto " style="width: 30%;" >
-    <button class="btn btn-primary" type="küldés">Küldés</button>
-   
-  </div>
+<h1  class="text-center  "  id="gomb"></h1>
+<div class="d-grid gap-2 col-6 mx-auto " style="width: 30%;" >
+  <button class="btn btn-dark" onclick="kuld()"  >Küldés</button>
+  
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"></script>
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 
 </html>

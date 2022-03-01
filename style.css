@@ -6,7 +6,7 @@
 }
 .kapcsolat{
    
-    width: 90px;
+    width: 100px;
 border-radius: 10px;
 position: fixed;
   bottom: 10px;
@@ -40,14 +40,14 @@ body{
 a:hover{
     text-decoration: none;
     font-weight: bold;
-    color: darkgreen;
+    color: rgb(138, 238, 177);
 }
 a{
     text-decoration: none;
     color: blue;
 }
-@media screen and (max-width: 600px) {
-    .carusel{
-        width: 75%;
-    }
+.valasz{
+    height: 100px;
+    width: 100px;
+    color: black;
 }
