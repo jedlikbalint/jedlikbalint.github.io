@@ -46,8 +46,67 @@ a{
     text-decoration: none;
     color: blue;
 }
-.valasz{
-    height: 100px;
-    width: 100px;
+#newtonkep{
+    width: 200px;
+}
+#tablazat{
+    width: 75%;
+}
+#card1,#card2{
+    width: 80%;
+}
+#card1header,#card2header{
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    #carusel{
+        max-width: 75%;
+    }
+}
+@media screen and (min-width: 600px) {
+    #carusel{
+        max-width: 40%;
+    }
+}
+.alcim{
     color: black;
 }
+#alcim1{
+    color: whitesmoke;
+}
+.felfedezes{
+    width: 20rem;
+}
+#gomb{
+    width: 30%;
+}
+.input{
+    width: 30%;
+}
+.torvenyei{
+   width: 20rem;
+   height: 50rem; 
+}
+.tor{
+    width: 20rem;
+    height: 39rem;
+}
+@media screen and (max-width: 991px) {
+    .torv{
+        height: 39rem;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .torv{
+        width: 20rem;
+        height: 39rem;
+    }
+}
+@media screen and (max-width: 1399px) {
+    .torv{
+        width: 20rem;
+        height: 50rem;
+    }
+}
+
